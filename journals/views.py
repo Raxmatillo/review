@@ -14,9 +14,6 @@ from .permissions import IsOwnerOrReadOnly
 
 
 
-
-
-
 class JournalListView(generics.ListAPIView):
 	queryset = Journal.objects.all()
 	serializer_class = JournalSerializer
