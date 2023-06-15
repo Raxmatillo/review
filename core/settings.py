@@ -144,7 +144,8 @@ GS_BUCKET_NAME = 'review_journal'
 STATIC_URL = 'static/'
 
 
-MEDIA_URL = 'media/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
 
 # STORAGES = {"default": {
 #     "BACKEND": "storages.backends.gcloud.GoogleCloudStorage"},
